@@ -1,0 +1,5 @@
+cron:
+- description: Timedout Visitors
+  url: /timeout
+  target: v-3
+  schedule: every 2 hours

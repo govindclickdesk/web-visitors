@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<queue-entries>
+	<queue>
+		<name>timeout-visitor-queue</name>
+		<rate>10/s</rate>
+	</queue>
+
+	<queue>
+		<name>event-track-status-update-queue</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+
+	<queue>
+		<name>event-track-info-update-queue</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+
+
+	<queue>
+		<name>event-track-queue</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+		<!-- <target>visitortrack</target> -->
+	</queue>
+	<queue>
+		<name>new-visitor-queue</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+		<!-- <target>visitortrack</target> -->
+	</queue>
+
+	<queue>
+		<name>event-track-queue1</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+	<queue>
+		<name>event-track-queue2</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+	<queue>
+		<name>event-track-queue3</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+	<queue>
+		<name>event-track-queue4</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+	<queue>
+		<name>event-track-queue5</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+	<queue>
+		<name>event-track-queue6</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+	<queue>
+		<name>event-track-queue7</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+	<queue>
+		<name>event-track-queue8</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+	<queue>
+		<name>event-track-queue9</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+	<queue>
+		<name>event-track-queue10</name>
+		<rate>100/s</rate>
+		<max-concurrent-requests>100</max-concurrent-requests>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+
+</queue-entries>

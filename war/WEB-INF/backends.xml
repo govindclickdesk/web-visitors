@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backends>
+	<backend name="track-test-app">
+		<class>B1</class>
+		<instances>2</instances>
+	</backend>
+</backends>
